@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="public/style.css" >
+        <title>History Eventes API</title>
+    </head>
+    <body>
+        <h1>History Events API</h1>
+        <div>
+        	<a href="./index.html">HomePage</a>
+        	<h3> Show All History Events </h3>
+        	<a href="/getAllHistory">/getAllHistory</a>
+        	<h3> Show All Specific History Event By Year </h3>
+        	<h4> Method : POST , Return Value : Json </h4>
+        	<h4> Parameters: </h4>
+        	<h5>	xxxx - The requested Year </h5>
+        	<a href="/getHistoryByYear/">/getHistoryByYear</a>
+        	<h3> Show All Specific History Event By Year and By date </h3>
+        	<h4> Method : POST , Return Value : Json </h4>
+        	<a href="/getHistoryByYear/">/getHistoryByYear/</a>  		
+        </div>
+        <div>
+        	<h5> Json Format:</h5>
+    		<article>
+	    		{ <br>
+				 &nbsp   "year": "1948", <br>
+				 &nbsp   "events": [ <br>
+				        { <br>
+				    &nbsp        "date": "6.12.1948", <br>
+				    &nbsp        "event": "Juliana Loiuse king of Netherlands" <br>
+				        }, <br>
+				        { <br>
+				    &nbsp        "date": "6.10.1948", <br>
+				    &nbsp        "event": "Ashgabat earthquake kills 10,000–110,000" <br>
+				        } <br>
+				&nbsp    ] <br>
+				} 
+			</article>
+        </div>
+    </body>
+</html>

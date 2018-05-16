@@ -1,0 +1,26 @@
+
+
+a{
+	display: block;
+	text-decoration: none;
+}
+
+h1{
+	color: #145086;
+}
+
+h4{
+	color:#147d86;
+}
+
+h5{
+	color:#145086;
+	font-size: medium;
+}
+
+article{
+	border:1px solid #ccc;
+	border-radius: 4px;
+	background-color: #f5f5f5;
+	width:500px;
+}

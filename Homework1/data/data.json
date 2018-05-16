@@ -1,0 +1,123 @@
+{
+	"historyEvents":
+	[
+		{
+			"year":1947,
+			"events":
+			[
+				{
+					"date":"30.11.1947",
+					"event":"The war of independence"
+				}
+			]
+			
+		},
+		{
+			"year":1948,
+			"events":
+			[
+				{
+					"date":"6.12.1948",
+					"event":"Juliana Loiuse king of Netherlands"
+				},
+
+				{
+					"date":"6.10.1948",
+					"event":"Ashgabat earthquake kills 10,000–110,000"
+				}
+			]
+			
+		},
+
+		{
+			"year":1950,
+			"events":
+			[
+				{
+					"date":"6.2.1950",
+					"event":"Snow in Jerusalem"
+				},
+
+				{
+					"date":"26.3.1950",
+					"event":"The remains of the Hannah Szenes are brought to Israel"
+				}
+			]		
+		},
+
+		{
+			"year":1952,
+			"events":
+			[
+				{
+					"date":"6.6.1952",
+					"event":"The remains of the Hannah Szenes are brought to Israel"
+				}
+			]			
+		},
+
+		{
+			"year":1956,
+			"events":
+			[
+				{
+					"date":"29.10.1956",
+					"event":"Sinai War"
+				}
+			]	
+		},
+
+		{
+			"year":1967,
+			"events":
+			[
+				{
+					"date":"5.6.1967",
+					"event":"The Six days war"
+				}
+			]	
+		},
+
+		{
+			"year":1973,
+			"events":
+			[
+				{
+					"date":"6.10.1973",
+					"event":"Yom-Kippur war"
+				}
+			]	
+		},
+
+		{
+			"year":1980,
+			"events":
+			[
+				{
+					"date":"1.6.1980",
+					"event":"CNN news start"
+				},
+				{
+					"date":"19.7.1980",
+					"event":"Moscow Olympic openning"
+				},
+				{
+					"date":"22.9.1980",
+					"event":"Iran-Iraq War"
+				}
+			]	
+		},
+
+		{
+			"year":1982,
+			"events":
+			[
+				{
+					"date":"9.6.1982",
+					"event":"Operation Peace for the Galilee"
+				}
+			]
+		}
+
+	]
+}
