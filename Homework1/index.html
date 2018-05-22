@@ -1,39 +1,39 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="public/style.css" >
+        <link rel="stylesheet" href="public/style.css">
         <title>History Eventes API</title>
+        <meta charset="utf-8">
     </head>
     <body>
         <h1>History Events API</h1>
         <div>
-        	<a href="./index.html">HomePage</a>
         	<h3> Show All History Events </h3>
-        	<a href="/getAllHistory">/getAllHistory</a>
+        	<label> URL : <a href="/getAllHistory">getAllHistory</a>
         	<h3> Show All Specific History Event By Year </h3>
-        	<h4> Method : POST , Return Value : Json </h4>
+        	<h4> Method : POST , Params: year(String) , Return Value : Json </h4>
         	<h4> Parameters: </h4>
         	<h5>	xxxx - The requested Year </h5>
-        	<a href="/getHistoryByYear/">/getHistoryByYear</a>
-        	<h3> Show All Specific History Event By Year and By date </h3>
-        	<h4> Method : POST , Return Value : Json </h4>
-        	<a href="/getHistoryByYear/">/getHistoryByYear/</a>  		
+        	<label> URL : <a href="/getHistoryByYear/">getHistoryByYear</a>
+        	<h3> Show All History Events By Range of Years </h3>
+        	<h4> Method : POST , Params: start_year(String), end_year(String) , Return Value : Json </h4>
+        	<label> URL : <a href="/getHistoryByRangeOfYears/">getHistoryByRangeOfYears</a>  		
         </div>
         <div>
         	<h5> Json Format:</h5>
     		<article>
 	    		{ <br>
-				 &nbsp   "year": "1948", <br>
-				 &nbsp   "events": [ <br>
-				        { <br>
-				    &nbsp        "date": "6.12.1948", <br>
-				    &nbsp        "event": "Juliana Loiuse king of Netherlands" <br>
-				        }, <br>
-				        { <br>
-				    &nbsp        "date": "6.10.1948", <br>
-				    &nbsp        "event": "Ashgabat earthquake kills 10,000–110,000" <br>
-				        } <br>
-				&nbsp    ] <br>
+                    "year": "1947", <br>
+                    "events": [ <br>
+			         &nbsp { <br>
+    			    &nbsp        "date": "6.12.1948", <br>
+    			    &nbsp        "event": "Juliana Loiuse king of Netherlands" <br>
+			        &nbsp }, <br>
+			        &nbsp { <br>
+    			    &nbsp        "date": "6.10.1948", <br>
+    			    &nbsp        "event": "Ashgabat earthquake kills 10,000–110,000" <br>
+			        &nbsp } <br>
+                    &nbsp ] <br>
 				} 
 			</article>
         </div>
